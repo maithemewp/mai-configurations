@@ -21,8 +21,8 @@ if ( ! class_exists( 'Merlin' ) ) {
 $wizard = new Merlin(
 
 	$config = array(
-		'base_path'            => trailingslashit( MY_PLUGIN_INCLUDES_DIR ),
-		'base_url'             => trailingslashit( MY_PLUGIN_INCLUDES_URL ),
+		'base_path'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ),
+		'base_url'             => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ),
 		'directory'            => 'merlin', // Location / directory where Merlin WP is placed in your theme.
 		'merlin_url'           => 'merlin',  // The wp-admin page slug where Merlin WP loads.
 		'child_action_btn_url' => 'https://codex.wordpress.org/child_themes', // URL for the 'child-action-link'.

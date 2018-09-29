@@ -14,22 +14,22 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Plugin Folder Path.
-if ( ! defined( 'MY_PLUGIN_DIR' ) ) {
-	define( 'MY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+if ( ! defined( 'MAI_CONFIGURATIONS_DIR' ) ) {
+	define( 'MAI_CONFIGURATIONS_DIR', plugin_dir_path( __FILE__ ) );
 }
 
 // Plugin Includes Path.
-if ( ! defined( 'MY_PLUGIN_INCLUDES_DIR' ) ) {
-	define( 'MY_PLUGIN_INCLUDES_DIR', MY_PLUGIN_DIR . 'includes/' );
+if ( ! defined( 'MAI_CONFIGURATIONS_INCLUDES_DIR' ) ) {
+	define( 'MAI_CONFIGURATIONS_INCLUDES_DIR', MAI_CONFIGURATIONS_DIR . 'includes/' );
 }
 
 // Plugin Folder URL.
-if ( ! defined( 'MY_PLUGIN_PLUGIN_URL' ) ) {
-	define( 'MY_PLUGIN_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+if ( ! defined( 'MAI_CONFIGURATIONS_PLUGIN_URL' ) ) {
+	define( 'MAI_CONFIGURATIONS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 }
 
-if ( ! defined( 'MY_PLUGIN_INCLUDES_URL' ) ) {
-	define( 'MY_PLUGIN_INCLUDES_URL', MY_PLUGIN_PLUGIN_URL . 'includes/' );
+if ( ! defined( 'MAI_CONFIGURATIONS_INCLUDES_URL' ) ) {
+	define( 'MAI_CONFIGURATIONS_INCLUDES_URL', MAI_CONFIGURATIONS_PLUGIN_URL . 'includes/' );
 }
 
 add_action( 'plugins_loaded', function() {
@@ -38,8 +38,10 @@ add_action( 'plugins_loaded', function() {
 		return;
 	}
 
-	require_once dirname( __FILE__ ) . '/includes/merlin/vendor/autoload.php';
-	require_once dirname( __FILE__ ) . '/includes/merlin/class-merlin.php';
-	require_once dirname( __FILE__ ) . '/includes/merlin-config.php';
-	require_once dirname( __FILE__ ) . '/includes/merlin-filters.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'tgmpa/class-tgm-plugin-activation.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'tgmpa-config.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'merlin/vendor/autoload.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'merlin/class-merlin.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'merlin-config.php';
+	require_once MAI_CONFIGURATIONS_INCLUDES_DIR . 'merlin-filters.php';
 });
