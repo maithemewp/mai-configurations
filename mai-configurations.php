@@ -42,5 +42,4 @@ add_action( 'plugins_loaded', function() {
 	require_once dirname( __FILE__ ) . '/includes/merlin/class-merlin.php';
 	require_once dirname( __FILE__ ) . '/includes/merlin-config.php';
 	require_once dirname( __FILE__ ) . '/includes/merlin-filters.php';
-
 });
