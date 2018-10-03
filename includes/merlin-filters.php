@@ -6,37 +6,37 @@ add_filter( 'merlin_import_files', function() {
 	$files = array(
 		array(
 			'import_file_name'             => 'Mai Business',
-			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/mai-business.xml',
-			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/mai-business.wie',
-			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/mai-business.dat',
-			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/business/mai-business.png',
+			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/business.xml',
+			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/business.wie',
+			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/business/business.dat',
+			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/business/business.png',
 			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
 			'preview_url'                  => 'https://demo.maitheme.com/business/',
 		),
 		array(
 			'import_file_name'             => 'Mai Law',
-			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/mai-law.xml',
-			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/mai-law.wie',
-			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/mai-law.dat',
-			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/law/mai-law.png',
+			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/law.xml',
+			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/law.wie',
+			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/law/law.dat',
+			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/law/law.png',
 			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
 			'preview_url'                  => 'https://demo.maitheme.com/law/',
 		),
 		array(
 			'import_file_name'             => 'Mai Lifestyle',
-			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/mai-lifestyle.xml',
-			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/mai-lifestyle.wie',
-			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/mai-lifestyle.dat',
-			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/lifestyle/mai-lifestyle.png',
+			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/lifestyle.xml',
+			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/lifestyle.wie',
+			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/lifestyle/lifestyle.dat',
+			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/lifestyle/lifestyle.png',
 			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
 			'preview_url'                  => 'https://maitheme.com/mai-lifestyle-pro/',
 		),
 		array(
 			'import_file_name'             => 'Mai News',
-			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/mai-news.xml',
-			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/mai-news.wie',
-			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/mai-news.dat',
-			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/news/mai-news.png',
+			'local_import_file'            => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/news.xml',
+			'local_import_widget_file'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/news.wie',
+			'local_import_customizer_file' => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_DIR ) . 'demos/news/news.dat',
+			'import_preview_image_url'     => trailingslashit( MAI_CONFIGURATIONS_INCLUDES_URL ) . 'demos/news/news.png',
 			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
 			'preview_url'                  => 'https://demo.maitheme.com/news/',
 		),
@@ -46,7 +46,7 @@ add_filter( 'merlin_import_files', function() {
 
 		switch ( CHILD_THEME_NAME ) {
 			case 'Mai Law Pro':
-			$files = array( $files[1] );
+				$files = array( $files[1] );
 			break;
 			case 'Mai Lifestyle Pro':
 				$files = array( $files[2] );
