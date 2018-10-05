@@ -7,7 +7,7 @@
  * Envato WordPress Theme Setup Wizard by David Baker.
  *
  * @package   Merlin WP
- * @version   @@pkg.version
+ * @version   0.1.0
  * @link      https://merlinwp.com/
  * @author    Rich Tabor, from ThemeBeans.com & the team at ProteusThemes.com
  * @copyright Copyright (c) 2018, Merlin WP of Inventionn LLC
@@ -222,7 +222,7 @@ class Merlin {
 	private function version() {
 
 		if ( ! defined( 'MERLIN_VERSION' ) ) {
-			define( 'MERLIN_VERSION', '@@pkg.version' );
+			define( 'MERLIN_VERSION', '0.1.0' );
 		}
 	}
 
@@ -1159,6 +1159,8 @@ class Merlin {
 		$skip      = $strings['btn-skip'];
 		$next      = $strings['btn-next'];
 		$import    = $strings['btn-import'];
+
+		$multi_import = ( 1 < count( $this->import_files ) ) ? 'is-multi-import' : null;
 		?>
 
 		<div class="merlin__content--transition">
@@ -1174,26 +1176,28 @@ class Merlin {
 			<p><?php echo esc_html( $paragraph ); ?></p>
 
 			<?php if ( 1 < count( $this->import_files ) ) : ?>
-				<p><?php esc_html_e( 'Select which demo data you want to import:', '@@textdomain' ); ?></p>
-				<select class="js-merlin-demo-import-select">
-					<?php foreach ( $this->import_files as $index => $import_file ) : ?>
-						<?php
-						$img_src          = isset( $import_file['import_preview_image_url'] ) ? $import_file['import_preview_image_url'] : '';
-						$import_notice    = isset( $import_file['import_notice'] ) ? $import_file['import_notice'] : '';
-						$demo_preview_url = isset( $import_file['preview_url'] ) ? $import_file['preview_url'] : '';
-						?>
 
-						<option value="<?php echo esc_attr( $index ); ?>" data-img-src="<?php echo esc_url( $img_src ); ?>" data-notice="<?php echo esc_html( $import_notice ); ?>" data-preview-url="<?php echo esc_url( $demo_preview_url ); ?>"><?php echo esc_html( $import_file['import_file_name'] ); ?></option>
+				<div class="merlin__select-control-wrapper">
 
-					<?php endforeach; ?>
-				</select>
+					<select class="merlin__select-control js-merlin-demo-import-select">
+						<?php foreach ( $this->import_files as $index => $import_file ) : ?>
+							<option value="<?php echo esc_attr( $index ); ?>"><?php echo esc_html( $import_file['import_file_name'] ); ?></option>
+						<?php endforeach; ?>
+					</select>
+
+					<div class="merlin__select-control-help">
+						<span class="hint--top" aria-label="<?php echo esc_attr__( 'Select Demo', '@@textdomain' ); ?>">
+							<?php echo wp_kses( $this->svg( array( 'icon' => 'downarrow' ) ), $this->svg_allowed_html() ); ?>
+						</span>
+					</div>
+				</div>
 			<?php endif; ?>
 
 			<a id="merlin__drawer-trigger" class="merlin__button merlin__button--knockout"><span><?php echo esc_html( $action ); ?></span><span class="chevron"></span></a>
 
 		</div>
 
-		<form action="" method="post">
+		<form action="" method="post" class="<?php echo esc_attr( $multi_import ); ?>">
 
 			<ul class="merlin__drawer merlin__drawer--import-content js-merlin-drawer-import-content">
 				<?php echo $this->get_import_steps_html( $import_info ); ?>
@@ -1222,6 +1226,7 @@ class Merlin {
 	<?php
 		$this->logger->debug( __( 'The content import step has been displayed', '@@textdomain' ) );
 	}
+
 
 	/**
 	 * Final step
@@ -1666,7 +1671,6 @@ class Merlin {
 				$screenshot_ext = 'jpg';
 			}
 		} else {
-			// Fallback to parent theme screenshot
 			if ( file_exists( $this->base_path . '/screenshot.png' ) ) {
 				$screenshot     = $this->base_path . '/screenshot.png';
 				$screenshot_ext = 'png';
@@ -2007,19 +2011,6 @@ class Merlin {
 				'install_callback' => array( $this, 'import_revolution_sliders' ),
 				'checked'          => $this->is_possible_upgrade() ? 0 : 1,
 				'data'             => $import_files['sliders'],
-			);
-		}
-
-		if ( ! empty( $import_files['options'] ) ) {
-			$content['options'] = array(
-				'title'            => esc_html__( 'Options', '@@textdomain' ),
-				'description'      => esc_html__( 'Sample theme options data.', '@@textdomain' ),
-				'pending'          => esc_html__( 'Pending', '@@textdomain' ),
-				'installing'       => esc_html__( 'Installing', '@@textdomain' ),
-				'success'          => esc_html__( 'Success', '@@textdomain' ),
-				'install_callback' => array( 'Merlin_Customizer_Importer', 'import' ),
-				'checked'          => $this->is_possible_upgrade() ? 0 : 1,
-				'data'             => $import_files['options'],
 			);
 		}
 

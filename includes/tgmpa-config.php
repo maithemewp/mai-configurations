@@ -25,6 +25,11 @@ add_action( 'tgmpa_register', function() {
 			'slug'      => 'simple-social-icons',
 			'required'  => false,
 		),
+		array(
+			'name'      => 'Genesis eNews Extended',
+			'slug'      => 'genesis-enews-extended',
+			'required'  => false,
+		),
 	);
 	$config = array(
 		'id'           => 'mai-configurations',     // Unique ID for hashing notices for multiple instances of TGMPA.

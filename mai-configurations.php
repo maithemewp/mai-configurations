@@ -18,18 +18,19 @@ if ( ! defined( 'MAI_CONFIGURATIONS_DIR' ) ) {
 	define( 'MAI_CONFIGURATIONS_DIR', plugin_dir_path( __FILE__ ) );
 }
 
+// Plugin Folder URL.
+if ( ! defined( 'MAI_CONFIGURATIONS_URL' ) ) {
+	define( 'MAI_CONFIGURATIONS_URL', plugin_dir_url( __FILE__ ) );
+}
+
 // Plugin Includes Path.
 if ( ! defined( 'MAI_CONFIGURATIONS_INCLUDES_DIR' ) ) {
 	define( 'MAI_CONFIGURATIONS_INCLUDES_DIR', MAI_CONFIGURATIONS_DIR . 'includes/' );
 }
 
-// Plugin Folder URL.
-if ( ! defined( 'MAI_CONFIGURATIONS_PLUGIN_URL' ) ) {
-	define( 'MAI_CONFIGURATIONS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-}
-
+// Plugin Includes URL.
 if ( ! defined( 'MAI_CONFIGURATIONS_INCLUDES_URL' ) ) {
-	define( 'MAI_CONFIGURATIONS_INCLUDES_URL', MAI_CONFIGURATIONS_PLUGIN_URL . 'includes/' );
+	define( 'MAI_CONFIGURATIONS_INCLUDES_URL', MAI_CONFIGURATIONS_URL . 'includes/' );
 }
 
 add_action( 'plugins_loaded', function() {
