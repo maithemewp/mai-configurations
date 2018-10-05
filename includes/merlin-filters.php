@@ -104,42 +104,25 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 });
 
 /**
- * Set the static front page and blog..
+ * Set the static blog page.
  */
 add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 
-	return;
-
-	/**
-	 * Assign front page and posts page (blog page).
-	 * This is needed when people may import options/settings only, not content.
-	 */
-	$front_page = get_page_by_title( 'Home' );
-	$blog_page  = get_page_by_title( 'Blog' );
-
-	// Bail if no pages.
-	if ( ! ( $front_page || $blog_page ) ) {
+	$page_for_posts = get_option( 'page_for_posts' );
+	if ( $page_for_posts ) {
 		return;
 	}
 
-	update_option( 'show_on_front', 'page' );
-
-	if ( $front_page ) {
-		update_option( 'page_on_front', $front_page->ID );
-
-		// $submission   = trim( $_POST['mai_sections_json_import'] );
-		// $section_data = json_decode( stripslashes( $submission ), true );
-		// if ( ! $section_data ) {
-		// 	return;
-		// }
-
-		// // Update.
-		// mai_update_sections_template( $section_data, $object_id, $import_images );
+	$blog_page = get_page_by_title( 'Blog' );
+	if ( ! $blog_page ) {
+		$blog_page = get_page_by_title( 'News' );
 	}
 
-	if ( $blog_page ) {
-		update_option( 'page_for_posts', $blog_page->ID );
+	if ( ! $blog_page ) {
+		return;
 	}
+
+	update_option( 'page_for_posts', $blog_page->ID );
 });
 
 
