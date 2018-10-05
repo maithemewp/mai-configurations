@@ -7,7 +7,7 @@
  * Envato WordPress Theme Setup Wizard by David Baker.
  *
  * @package   Merlin WP
- * @version   0.1.0
+ * @version   @@pkg.version
  * @link      https://merlinwp.com/
  * @author    Rich Tabor, from ThemeBeans.com & the team at ProteusThemes.com
  * @copyright Copyright (c) 2018, Merlin WP of Inventionn LLC
@@ -222,7 +222,7 @@ class Merlin {
 	private function version() {
 
 		if ( ! defined( 'MERLIN_VERSION' ) ) {
-			define( 'MERLIN_VERSION', '0.1.0' );
+			define( 'MERLIN_VERSION', '@@pkg.version' );
 		}
 	}
 
@@ -2011,6 +2011,19 @@ class Merlin {
 				'install_callback' => array( $this, 'import_revolution_sliders' ),
 				'checked'          => $this->is_possible_upgrade() ? 0 : 1,
 				'data'             => $import_files['sliders'],
+			);
+		}
+
+		if ( ! empty( $import_files['options'] ) ) {
+			$content['options'] = array(
+				'title'            => esc_html__( 'Options', '@@textdomain' ),
+				'description'      => esc_html__( 'Sample theme options data.', '@@textdomain' ),
+				'pending'          => esc_html__( 'Pending', '@@textdomain' ),
+				'installing'       => esc_html__( 'Installing', '@@textdomain' ),
+				'success'          => esc_html__( 'Success', '@@textdomain' ),
+				'install_callback' => array( 'Merlin_Customizer_Importer', 'import' ),
+				'checked'          => $this->is_possible_upgrade() ? 0 : 1,
+				'data'             => $import_files['options'],
 			);
 		}
 
