@@ -7,8 +7,8 @@
  */
 add_filter( 'merlin_import_files', function() {
 
-	$dir = trailingslashit( MAI_CONFIGURATIONS_DIR );
-	$url = trailingslashit( MAI_CONFIGURATIONS_URL );
+	$dir = trailingslashit( MAI_DEMO_IMPORTER_DIR );
+	$url = trailingslashit( MAI_DEMO_IMPORTER_URL );
 
 	$files = array(
 		array(
@@ -17,7 +17,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/business/business.wie',
 			'local_import_customizer_file' => $dir . 'demos/business/business.dat',
 			'import_preview_image_url'     => $url . 'demos/business/business.png',
-			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
+			'import_notice'                => __( 'A special note for this import.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/business/',
 		),
 		array(
@@ -26,7 +26,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/law/law.wie',
 			'local_import_customizer_file' => $dir . 'demos/law/law.dat',
 			'import_preview_image_url'     => $url . 'demos/law/law.png',
-			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
+			'import_notice'                => __( 'A special note for this import.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/law/',
 		),
 		array(
@@ -35,7 +35,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/lifestyle/lifestyle.wie',
 			'local_import_customizer_file' => $dir . 'demos/lifestyle/lifestyle.dat',
 			'import_preview_image_url'     => $url . 'demos/lifestyle/lifestyle.png',
-			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
+			'import_notice'                => __( 'A special note for this import.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://maitheme.com/mai-lifestyle-pro/',
 		),
 		array(
@@ -44,7 +44,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/news/news.wie',
 			'local_import_customizer_file' => $dir . 'demos/news/news.dat',
 			'import_preview_image_url'     => $url . 'demos/news/news.png',
-			'import_notice'                => __( 'A special note for this import.', 'mai-configurations' ),
+			'import_notice'                => __( 'A special note for this import.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/news/',
 		),
 	);
