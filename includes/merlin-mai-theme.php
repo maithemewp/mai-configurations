@@ -51,22 +51,22 @@ add_filter( 'merlin_import_files', function() {
 		),
 	);
 
-	$config = false;
+	$name = false;
 
 	if ( defined( 'CHILD_THEME_NAME' ) ) {
 
 		switch ( CHILD_THEME_NAME ) {
 			case 'Mai Law Pro':
-				$config = array( 'import_file_name' => 'Mai Law' );
+				$name = 'Mai Law';
 				break;
 			case 'Mai Lifestyle Pro':
-				$config = array( 'import_file_name' => 'Mai Lifestyle' );
+				$name = 'Mai Lifestyle';
 				break;
 		}
 	}
 
 	if ( $config ) {
-		$files = wp_list_filter( $files, $config );
+		$files = wp_list_filter( $files, array( 'import_file_name' => $name ) );
 	}
 
 	return $files;
