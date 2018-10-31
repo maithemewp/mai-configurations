@@ -17,6 +17,8 @@ if ( ! class_exists( 'Merlin' ) ) {
 
 /**
  * Set directory locations, text strings, and settings.
+ *
+ * @since  0.1.0
  */
 $wizard = new Merlin(
 
