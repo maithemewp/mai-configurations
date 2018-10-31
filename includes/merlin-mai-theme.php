@@ -65,7 +65,7 @@ add_filter( 'merlin_import_files', function() {
 		}
 	}
 
-	if ( $config ) {
+	if ( $name ) {
 		$files = wp_list_filter( $files, array( 'import_file_name' => $name ) );
 	}
 
