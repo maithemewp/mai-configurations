@@ -24,7 +24,7 @@ $wizard = new Merlin(
 		'base_path'            => MAI_DEMO_IMPORTER_INCLUDES_DIR,
 		'base_url'             => MAI_DEMO_IMPORTER_INCLUDES_URL,
 		'directory'            => 'merlin', // Location / directory where Merlin WP is placed in your theme.
-		'merlin_url'           => 'merlin',  // The wp-admin page slug where Merlin WP loads.
+		'merlin_url'           => 'mai-demo-importer',  // The wp-admin page slug where Merlin WP loads.
 		'parent_slug'          => 'genesis',
 		'child_action_btn_url' => 'https://codex.wordpress.org/child_themes', // URL for the 'child-action-link'.
 		'dev_mode'             => true, // Enable development mode for testing.
@@ -36,7 +36,7 @@ $wizard = new Merlin(
 		'edd_theme_slug'       => '', // EDD_Theme_Updater_Admin item_slug.
 	),
 	$strings = array(
-		'admin-menu'               => esc_html__( 'Mai Theme Setup', 'mai-demo-importer' ),
+		'admin-menu'               => esc_html__( 'Mai Demo Importer', 'mai-demo-importer' ),
 
 		/* translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag */
 		'title%s%s%s%s'            => esc_html__( '%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s', 'mai-demo-importer' ),

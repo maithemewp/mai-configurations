@@ -2,6 +2,8 @@
 
 /**
  * Register the required plugins for this theme.
+ *
+ * @since  0.1.0
  */
 add_action( 'tgmpa_register', function() {
 	/**
@@ -32,7 +34,7 @@ add_action( 'tgmpa_register', function() {
 		),
 	);
 	$config = array(
-		'id'           => 'mai-demo-importer',     // Unique ID for hashing notices for multiple instances of TGMPA.
+		'id'           => 'mai-demo-importer',      // Unique ID for hashing notices for multiple instances of TGMPA.
 		'default_path' => '',                       // Default absolute path to bundled plugins.
 		'menu'         => 'tgmpa-install-plugins',  // Menu slug.
 		'parent_slug'  => 'plugins.php',            // Parent menu slug.
