@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-10-29 20:31" -->
+<!-- generator="WordPress/4.9.8" created="2018-11-01 19:47" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Mai Law Theme</title>
 	<link>https://import.maitheme.com/law</link>
 	<description>Just another Mai Theme Imports site</description>
-	<pubDate>Mon, 29 Oct 2018 20:31:22 +0000</pubDate>
+	<pubDate>Thu, 01 Nov 2018 19:47:55 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://import.maitheme.com/</wp:base_site_url>
@@ -4446,7 +4446,7 @@
 The perfect theme for you to showcase your firm on the web.
 The last theme you'll ever need.
 
-<a class="button white" href="https://demo.maitheme.com/law/">FREE CONSULTATION</a>  <a class="scroll-to text-sm" href="#why-us">WHY CHOOSE US?</a>
+<a class="button white" href="https://import.maitheme.com/law/">FREE CONSULTATION</a>  <a class="scroll-to text-sm" href="#why-us">WHY CHOOSE US?</a>
 <h2>Our Practice Areas</h2>
 <p class="text-lg" style="max-width: 800px; margin: auto;">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
 [grid content="page" parent="13" number="all" xs="12" sm="6" md="4" show="image, title" image_location="bg" overlay="gradient" align_text="center, bottom" class="top-xs-xxl"]
@@ -4471,17 +4471,17 @@ We invest a lot in our support. We keep our extensive arsenal of how-to's and h
 </div>
 [/col]
 [col]
-https://youtu.be/UsgYKyvzlYY
+https://vimeo.com/296081276
 [/col]
 [/columns]
 <h2>Our Attorneys</h2>
 <p class="text-lg" style="max-width: 800px; margin: auto;">Our reputable, talented team members are among the top in their respective fields. We care about our clients and our community and will work tirelessly to achieve exceptional results for you.</p>
 [grid content="page" parent="11" number="all" align="center" show="image, title, excerpt, more_link" more_link_text="Read More" image_size="thumbnail" image_align="center" boxed="false" entry_class="bottom-xs-xxl"]
-<h2>News &amp; Events</h2>
+<h2>News & Events</h2>
 <p class="text-lg" style="max-width: 800px; margin: auto;">Stay up to date on our latest articles, press releases, and what we are doing serve and bring change to our community.</p>
 [grid content="post" number="6" show="image, title, excerpt, more_link" content_limit="36" boxed="true" image_location="before_title" slider="true"]
 
-<a class="text-lg" href="https://demo.maitheme.com/law/news/">View All Posts</a>
+<a class="text-lg" href="https://import.maitheme.com/law/blog/">View All Posts</a>
 <h2>Success Stories</h2>
 [columns]
 [col]
@@ -4501,7 +4501,8 @@ https://youtu.be/UsgYKyvzlYY
 <h2>Schedule a no-cost consultation today!</h2>
 This page was built using the powerful Sections page template that comes with this theme. With the “Sections” template, you’re not stuck with using custom widget areas when designing your home page. And why limit yourself to a front page? The “Sections” template can be used on as many pages as you like!
 
-<a class="button large white" href="https://demo.maitheme.com/law/">SCHEDULE NOW</a>]]></content:encoded>
+<a class="button large white" href="https://import.maitheme.com/law/">SCHEDULE NOW</a>
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>652</wp:post_id>
 		<wp:post_date><![CDATA[2018-09-24 20:17:57]]></wp:post_date>
@@ -4525,12 +4526,12 @@ This page was built using the powerful Sections page template that comes with th
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[mai_sections]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:7:{i:0;a:15:{s:2:"bg";s:0:"";s:8:"image_id";s:3:"428";s:5:"image";s:93:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-771306-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"xl";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:0:"";s:9:"text_size";s:2:"xl";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:0:"";s:7:"content";s:277:"<h1>Mai Law Pro Theme</h1>
+			<wp:meta_value><![CDATA[a:7:{i:0;a:15:{s:2:"bg";s:0:"";s:8:"image_id";i:428;s:5:"image";s:93:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-771306-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"xl";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:0:"";s:9:"text_size";s:2:"xl";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:0:"";s:7:"content";s:277:"<h1>Mai Law Pro Theme</h1>
 The perfect theme for you to showcase your firm on the web.
 The last theme you'll ever need.
 
-<a class="button white" href="https://import.maitheme.com/law/">FREE CONSULTATION</a>  <a class="scroll-to text-sm" href="#why-us">WHY CHOOSE US?</a>";}i:1;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";s:0:"";s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:18:"Our Practice Areas";s:7:"content";s:562:"<p class="text-lg" style="max-width: 800px;margin: auto">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
-[grid content="page" parent="13" number="all" xs="12" sm="6" md="4" show="image, title" image_location="bg" overlay="gradient" align_text="center, bottom" class="top-xs-xxl"]";}i:2;a:15:{s:2:"bg";s:7:"#323232";s:8:"image_id";s:3:"406";s:5:"image";s:93:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-351765-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:6:"why-us";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:22:"Why Choose Mai Law Pro";s:7:"content";s:1073:"<p class="text-lg" style="max-width: 800px;margin: auto">Mai Law Pro Theme will get your law firm website ready in no time. Header layouts, banner area, grid archive settings, and many more theme customization features make it simple for you to create an easy to navigate website that caters to your clients' needs.</p>
+<a class="button white" href="https://import.maitheme.com/law/">FREE CONSULTATION</a>  <a class="scroll-to text-sm" href="#why-us">WHY CHOOSE US?</a>";}i:1;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:18:"Our Practice Areas";s:7:"content";s:564:"<p class="text-lg" style="max-width: 800px; margin: auto;">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
+[grid content="page" parent="13" number="all" xs="12" sm="6" md="4" show="image, title" image_location="bg" overlay="gradient" align_text="center, bottom" class="top-xs-xxl"]";}i:2;a:15:{s:2:"bg";s:7:"#323232";s:8:"image_id";i:406;s:5:"image";s:93:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-351765-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:6:"why-us";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:22:"Why Choose Mai Law Pro";s:7:"content";s:1074:"<p class="text-lg" style="max-width: 800px; margin: auto;">Mai Law Pro Theme will get your law firm website ready in no time. Header layouts, banner area, grid archive settings, and many more theme customization features make it simple for you to create an easy to navigate website that caters to your clients' needs.</p>
 [columns align="middle" top="xxl"]
 [col align_text="left"]
 <div class="bottom-xs-xxl">
@@ -4550,13 +4551,13 @@ We invest a lot in our support. We keep our extensive arsenal of how-to's and h
 </div>
 [/col]
 [col]
-https://youtu.be/UsgYKyvzlYY
+https://vimeo.com/296081276
 [/col]
-[/columns]";}i:3;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";s:0:"";s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:13:"Our Attorneys";s:7:"content";s:468:"<p class="text-lg" style="max-width: 800px;margin: auto">Our reputable, talented team members are among the top in their respective fields. We care about our clients and our community and will work tirelessly to achieve exceptional results for you.</p>
-[grid content="page" parent="11" number="all" align="center" show="image, title, excerpt, more_link" more_link_text="Read More" image_size="thumbnail" image_align="center" boxed="false" entry_class="bottom-xs-xxl"]";}i:4;a:15:{s:2:"bg";s:7:"#f7f7f7";s:8:"image_id";s:3:"416";s:5:"image";s:94:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-1066970-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:13:"News & Events";s:7:"content";s:415:"<p class="text-lg" style="max-width: 800px;margin: auto">Stay up to date on our latest articles, press releases, and what we are doing serve and bring change to our community.</p>
+[/columns]";}i:3;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:13:"Our Attorneys";s:7:"content";s:470:"<p class="text-lg" style="max-width: 800px; margin: auto;">Our reputable, talented team members are among the top in their respective fields. We care about our clients and our community and will work tirelessly to achieve exceptional results for you.</p>
+[grid content="page" parent="11" number="all" align="center" show="image, title, excerpt, more_link" more_link_text="Read More" image_size="thumbnail" image_align="center" boxed="false" entry_class="bottom-xs-xxl"]";}i:4;a:15:{s:2:"bg";s:7:"#f7f7f7";s:8:"image_id";i:416;s:5:"image";s:94:"https://demo.maitheme.com/law/wp-content/uploads/sites/5/2018/09/rawpixel-1066970-unsplash.jpg";s:7:"overlay";s:4:"dark";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:0:"";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:13:"News & Events";s:7:"content";s:417:"<p class="text-lg" style="max-width: 800px; margin: auto;">Stay up to date on our latest articles, press releases, and what we are doing serve and bring change to our community.</p>
 [grid content="post" number="6" show="image, title, excerpt, more_link" content_limit="36" boxed="true" image_location="before_title" slider="true"]
 
-<a class="text-lg" href="https://import.maitheme.com/law/news/">View All Posts</a>";}i:5;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";s:0:"";s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:2:"lg";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:15:"Success Stories";s:7:"content";s:501:"[columns]
+<a class="text-lg" href="https://import.maitheme.com/law/blog/">View All Posts</a>";}i:5;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:2:"lg";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:15:"Success Stories";s:7:"content";s:501:"[columns]
 [col]
 <em>"I love this theme! Great flexibility and so many options! But best of all is the responsive customer support."</em>
 <strong>- Linda</strong>
@@ -4569,7 +4570,7 @@ https://youtu.be/UsgYKyvzlYY
 <em>"Your theme, instructional videos and tutorials and help are top notch!!!!"</em>
 <strong>- Lisa</strong>
 [/col]
-[/columns]";}i:6;a:15:{s:2:"bg";s:7:"#067ccc";s:8:"image_id";s:0:"";s:5:"image";s:0:"";s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:2:"md";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:2:"lg";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:0:"";s:7:"content";s:521:"<strong>Looking for immediate answers to your questions?</strong>
+[/columns]";}i:6;a:6:{s:2:"bg";s:7:"#067ccc";s:6:"height";s:2:"lg";s:13:"content_width";s:2:"md";s:5:"align";s:6:"center";s:9:"text_size";s:2:"lg";s:7:"content";s:521:"<strong>Looking for immediate answers to your questions?</strong>
 <h2>Schedule a no-cost consultation today!</h2>
 This page was built using the powerful Sections page template that comes with this theme. With the “Sections” template, you’re not stuck with using custom widget areas when designing your home page. And why limit yourself to a front page? The “Sections” template can be used on as many pages as you like!
 
@@ -4585,7 +4586,7 @@ This page was built using the powerful Sections page template that comes with th
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[mai_hide_breadcrumbs]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[mai_hide_featured_image]]></wp:meta_key>
@@ -4622,6 +4623,14 @@ This page was built using the powerful Sections page template that comes with th
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
 			<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_31a429b3dda243ee9bf51e760227f462]]></wp:meta_key>
+			<wp:meta_value><![CDATA[<iframe src="https://player.vimeo.com/video/296081276?app_id=122963" width="500" height="281" frameborder="0" title="Why Choose Mai Law Pro Theme" allow="autoplay; fullscreen" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_time_31a429b3dda243ee9bf51e760227f462]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1541100371]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -7689,7 +7698,7 @@ Our reputation among judges and fellow lawyers is <strong>immaculate</strong>.
 [/columns]
 <h2>Practice Areas</h2>
 <p class="text-lg">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
-[grid content="page" parent="13" number="all" xs="12" sm="6" md="4" show="image, title" class="text-xs-center top-xs-xxl"]
+[grid content="page" parent="practice-areas" number="all" xs="12" sm="6" md="4" show="image, title" class="text-xs-center top-xs-xxl"]
 “I love this theme! Great flexibility and so many options! But best of all is the responsive customer support.”
 <strong class="text-lg">– Linda</strong>
 
@@ -7746,8 +7755,8 @@ We have been winning cases for our clients for <strong>over 50 years</strong>.
 <h3>Reputation</h3>
 Our reputation among judges and fellow lawyers is <strong>immaculate</strong>.
 [/col]
-[/columns]";}i:2;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:0:"";s:9:"text_size";s:0:"";s:2:"id";s:14:"practice-areas";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:14:"Practice Areas";s:7:"content";s:472:"<p class="text-lg">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
-[grid content="page" parent="13" number="all" xs="12" sm="6" md="4" show="image, title" class="text-xs-center top-xs-xxl"]";}i:3;a:15:{s:2:"bg";s:0:"";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"md";s:13:"content_width";s:2:"sm";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:2:"xl";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:0:"";s:7:"content";s:203:"“I love this theme! Great flexibility and so many options! But best of all is the responsive customer support.”
+[/columns]";}i:2;a:15:{s:2:"bg";s:7:"#ffffff";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"lg";s:13:"content_width";s:0:"";s:13:"align_content";s:0:"";s:5:"align";s:0:"";s:9:"text_size";s:0:"";s:2:"id";s:14:"practice-areas";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:14:"Practice Areas";s:7:"content";s:484:"<p class="text-lg">Our full service firm has over 50 years of experience in a variety of practice areas and legal services. We pay special attention to your needs, pride ourselves on delivering consistent, outstanding results, and adhere to strict ethical and legal guidelines. Browse our practice areas to learn more about how we can help you.</p>
+[grid content="page" parent="practice-areas" number="all" xs="12" sm="6" md="4" show="image, title" class="text-xs-center top-xs-xxl"]";}i:3;a:15:{s:2:"bg";s:0:"";s:8:"image_id";s:0:"";s:5:"image";b:0;s:7:"overlay";s:0:"";s:5:"inner";s:0:"";s:6:"height";s:2:"md";s:13:"content_width";s:2:"sm";s:13:"align_content";s:0:"";s:5:"align";s:6:"center";s:9:"text_size";s:2:"xl";s:2:"id";s:0:"";s:5:"class";s:0:"";s:7:"context";s:0:"";s:5:"title";s:0:"";s:7:"content";s:203:"“I love this theme! Great flexibility and so many options! But best of all is the responsive customer support.”
 <strong class="text-lg">– Linda</strong>
 
 https://player.vimeo.com/video/296081276";}i:4;a:3:{s:6:"height";s:4:"auto";s:13:"content_width";s:4:"full";s:7:"content";s:604:"[columns gutter="0"]
@@ -7800,11 +7809,11 @@ We believe in fostering positive, long-term relationships with our clients. Cont
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_eb95f4af3d5a195259429a98d59f7a51]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<iframe src="https://player.vimeo.com/video/296081276?app_id=122963" width="500" height="281" frameborder="0" title="Why Choose Mai Law Pro Theme" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>]]></wp:meta_value>
+			<wp:meta_value><![CDATA[<iframe src="https://player.vimeo.com/video/296081276?app_id=122963" width="500" height="281" frameborder="0" title="Why Choose Mai Law Pro Theme" allow="autoplay; fullscreen" allowfullscreen></iframe>]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_time_eb95f4af3d5a195259429a98d59f7a51]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1540837792]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1541101661]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_551ef58c617fb70be781d302ec987abf]]></wp:meta_key>
@@ -7813,6 +7822,14 @@ We believe in fostering positive, long-term relationships with our clients. Cont
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_time_551ef58c617fb70be781d302ec987abf]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1540837792]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_14ab5e1395ffa1eccfa764bd5ca959f7]]></wp:meta_key>
+			<wp:meta_value><![CDATA[<iframe src="https://player.vimeo.com/video/296081276?app_id=122963" width="1638" height="921" frameborder="0" title="Why Choose Mai Law Pro Theme" allow="autoplay; fullscreen" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_time_14ab5e1395ffa1eccfa764bd5ca959f7]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1541101631]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>

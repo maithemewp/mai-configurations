@@ -112,7 +112,7 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 });
 
 /**
- * Set the static blog page.
+ * Set the permalink structure.
  *
  * @since   0.1.0
  *
@@ -120,21 +120,13 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
  */
 add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 
-	$page_for_posts = get_option( 'page_for_posts' );
-	if ( $page_for_posts ) {
+	$structure = get_option( 'permalink_structure' );
+
+	if ( $structure ) {
 		return;
 	}
 
-	$blog_page = get_page_by_title( 'Blog' );
-	if ( ! $blog_page ) {
-		$blog_page = get_page_by_title( 'News' );
-	}
-
-	if ( ! $blog_page ) {
-		return;
-	}
-
-	update_option( 'page_for_posts', $blog_page->ID );
+	update_option( 'permalink_structure', '/%postname%/' );
 });
 
 /**
