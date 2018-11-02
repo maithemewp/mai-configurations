@@ -73,6 +73,50 @@ add_filter( 'merlin_import_files', function() {
 });
 
 /**
+ * Remove the child theme step.
+ * This is for a Genesis child theme.
+ *
+ * @since   0.1.0
+ *
+ * @return  $array  The merlin import steps.
+ */
+add_filter( 'genesis_merlin_steps', function( $steps ) {
+	unset( $steps['child'] );
+	return $steps;
+});
+
+/**
+ * Clear menu locations and delete the menus before importing content.
+ *
+ * @since   0.1.0
+ *
+ * @return  void
+ */
+add_action( 'import_start', function() {
+
+	// Clear the menu locations.
+	set_theme_mod( 'nav_menu_locations', array() );
+
+	$locations = array(
+		'header_left'  => maiconfigurations_get_menu_by_slug( 'header-left' ),
+		'header_right' => maiconfigurations_get_menu_by_slug( 'header-right' ),
+		'primary'      => maiconfigurations_get_menu_by_slug( 'primary' ),
+		'secondary'    => maiconfigurations_get_menu_by_slug( 'footer' ),
+		'mobile'       => maiconfigurations_get_menu_by_slug( 'mobile' ),
+	);
+
+	foreach ( $locations as $name => $menu ) {
+
+		if ( ! $menu ) {
+			continue;
+		}
+
+		wp_delete_nav_menu( $menu );
+	}
+
+});
+
+/**
  * Set the menus.
  *
  * @since   0.1.0
@@ -130,43 +174,6 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 });
 
 /**
- * Get a menu object by its slug.
- *
- * @since   0.1.0
- *
- * @return  object|false
- */
-function maiconfigurations_get_menu_by_slug( $slug ) {
-
-	if ( $menu = get_term_by( 'slug', $slug, 'nav_menu' ) ) {
-		return $menu;
-	}
-
-	if ( $menu = get_term_by( 'slug', $slug . '-nav', 'nav_menu' ) ) {
-		return $menu;
-	}
-
-	if ( $menu = get_term_by( 'slug', $slug . '-menu', 'nav_menu' ) ) {
-		return $menu;
-	}
-
-	return false;
-}
-
-/**
- * Remove the child theme step.
- * This is for a Genesis child theme.
- *
- * @since   0.1.0
- *
- * @return  $array  The merlin import steps.
- */
-add_filter( 'genesis_merlin_steps', function( $steps ) {
-	unset( $steps['child'] );
-	return $steps;
-});
-
-/**
  * Set theme specific widget defaults during import.
  * We need to have this option set prior to importing widgets or they do not immediately show up after import.
  *
@@ -220,3 +227,27 @@ add_action( 'merlin_widget_importer_before_widgets_import', function( $data ) {
 	) );
 
 });
+
+/**
+ * Get a menu object by its slug.
+ *
+ * @since   0.1.0
+ *
+ * @return  object|false
+ */
+function maiconfigurations_get_menu_by_slug( $slug ) {
+
+	if ( $menu = get_term_by( 'slug', $slug, 'nav_menu' ) ) {
+		return $menu;
+	}
+
+	if ( $menu = get_term_by( 'slug', $slug . '-nav', 'nav_menu' ) ) {
+		return $menu;
+	}
+
+	if ( $menu = get_term_by( 'slug', $slug . '-menu', 'nav_menu' ) ) {
+		return $menu;
+	}
+
+	return false;
+}
