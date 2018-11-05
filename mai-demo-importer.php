@@ -4,7 +4,7 @@
  * Plugin Name:     Mai Demo Importer
  * Plugin URI:      https://maitheme.com
  * Description:     Easily import Mai Theme demo content and settings.
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * Author:          Mike Hemberger, BizBudding Inc
  * Author URI:      https://bizbudding.com
@@ -88,7 +88,7 @@ final class Mai_Demo_Importer {
 
 		// Plugin version.
 		if ( ! defined( 'MAI_DEMO_IMPORTER_VERSION' ) ) {
-			define( 'MAI_DEMO_IMPORTER_VERSION', '0.1.0' );
+			define( 'MAI_DEMO_IMPORTER_VERSION', '0.1.1' );
 		}
 
 		// Plugin Folder Path.
