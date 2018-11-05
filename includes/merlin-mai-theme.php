@@ -94,6 +94,9 @@ add_filter( 'genesis_merlin_steps', function( $steps ) {
  */
 add_action( 'import_start', function() {
 
+	// STOP THIS FOR NOW.
+	return;
+
 	// Clear the menu locations.
 	set_theme_mod( 'nav_menu_locations', array() );
 
@@ -112,6 +115,8 @@ add_action( 'import_start', function() {
 		}
 
 		wp_delete_nav_menu( $menu );
+
+		Merlin_Logger::get_instance()->info( sprintf( '%s navigation menu deleted.', $name ) );
 	}
 
 });
@@ -144,6 +149,8 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 
 		// Set as a valid menu.
 		$nav_menu_locations[ $location ] = $menu->term_id;
+
+		Merlin_Logger::get_instance()->info( sprintf( '%s navigation menu set to "%s" location.', $menu->name, $location ) );
 	}
 
 	// Bail if no menus.
@@ -153,6 +160,7 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 
 	// Set the menus.
 	set_theme_mod( 'nav_menu_locations', $nav_menu_locations );
+
 });
 
 /**
@@ -171,6 +179,8 @@ add_action( 'merlin_after_all_import', function( $selected_import_index ) {
 	}
 
 	update_option( 'permalink_structure', '/%postname%/' );
+
+	Merlin_Logger::get_instance()->info( 'Permalink structure updated.' );
 });
 
 /**
@@ -226,6 +236,7 @@ add_action( 'merlin_widget_importer_before_widgets_import', function( $data ) {
 		'footer_widget_count' => $footer_widgets,
 	) );
 
+	Merlin_Logger::get_instance()->info( sprintf( 'Footer widget count updated to %s.', $footer_widgets ) );
 });
 
 /**
