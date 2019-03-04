@@ -19,7 +19,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/business/business.wie',
 			'local_import_customizer_file' => $dir . 'demos/business/business.dat',
 			'import_preview_image_url'     => $url . 'demos/business/business.png',
-			'import_notice'                => __( 'A Business configuration for Mai Theme.', 'mai-demo-importer' ),
+			'import_notice'                => __( 'Mai Business Theme.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/business/',
 		),
 		array(
@@ -28,7 +28,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/law/law.wie',
 			'local_import_customizer_file' => $dir . 'demos/law/law.dat',
 			'import_preview_image_url'     => $url . 'demos/law/law.png',
-			'import_notice'                => __( 'A Law configuration for Mai Theme.', 'mai-demo-importer' ),
+			'import_notice'                => __( 'Mai Law Theme.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/law/',
 		),
 		array(
@@ -37,7 +37,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/lifestyle/lifestyle.wie',
 			'local_import_customizer_file' => $dir . 'demos/lifestyle/lifestyle.dat',
 			'import_preview_image_url'     => $url . 'demos/lifestyle/lifestyle.png',
-			'import_notice'                => __( 'A Lifestyle configuration for Mai Theme.', 'mai-demo-importer' ),
+			'import_notice'                => __( 'Mai Lifestyle Theme.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://maitheme.com/mai-lifestyle-pro/',
 		),
 		array(
@@ -46,7 +46,7 @@ add_filter( 'merlin_import_files', function() {
 			'local_import_widget_file'     => $dir . 'demos/news/news.wie',
 			'local_import_customizer_file' => $dir . 'demos/news/news.dat',
 			'import_preview_image_url'     => $url . 'demos/news/news.png',
-			'import_notice'                => __( 'A News configuration for Mai Theme.', 'mai-demo-importer' ),
+			'import_notice'                => __( 'Mai News Theme.', 'mai-demo-importer' ),
 			'preview_url'                  => 'https://demo.maitheme.com/news/',
 		),
 	);
@@ -56,11 +56,19 @@ add_filter( 'merlin_import_files', function() {
 	if ( defined( 'CHILD_THEME_NAME' ) ) {
 
 		switch ( CHILD_THEME_NAME ) {
+			case 'Mai Business Theme':
+				$name = 'Mai Business';
+				break;
 			case 'Mai Law Pro':
+			case 'Mai Law Theme':
 				$name = 'Mai Law';
 				break;
 			case 'Mai Lifestyle Pro':
+			case 'Mai Lifestyle Theme':
 				$name = 'Mai Lifestyle';
+				break;
+			case 'Mai News Theme':
+				$name = 'Mai News';
 				break;
 		}
 	}
